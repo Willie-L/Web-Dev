@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Advanced Search</title>
+		<link rel="stylesheet" href="googleSearch.css" />
+	</head>
+	<body>
+		<div class="advlogo">
+			<div class="links" style="padding: 10px; margin-left: 50%;">
+				<a href="googleSearch.html">Search</a>
+			</div>
+			<div class="imgbox">
+				<div class="imgsur">
+					<img
+						id="aglogo"
+						src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+					/>
+				</div>
+			</div>
+		</div>
+		<br />
+
+		<div class="titlebar">
+			<label>Advanced Search</label>
+		</div>
+
+		<div style="border-bottom: 1px solid #ebebeb;"></div>
+		<div class="advanced">
+			<div class="find">Find pages with...</div>
+			<br />
+			<div class="labels">
+				<div class="all_lbl">
+					<label for="all">all these words:</label>
+				</div>
+				<br />
+				<div class="exact_lbl">
+					<label for="exact">this exact word or phrase:</label>
+				</div>
+				<br />
+				<div class="any_lbl">
+					<label for="any">any of these words:</label>
+				</div>
+				<br />
+				<div class="none_lbl">
+					<label for="none">none of these words:</label>
+				</div>
+				<br />
+			</div>
+
+			<div class="input_boxes">
+				<form action="https://google.com/search">
+					<div>
+						<input type="text" id="all" name="as_q" />
+					</div>
+					<br />
+					<div>
+						<input type="text" id="exact" name="as_epq" />
+					</div>
+					<br />
+					<div>
+						<input type="text" id="any" name="as_oq" />
+					</div>
+					<br />
+					<div>
+						<input type="text" id="none" name="as_eq" />
+					</div>
+					<br />
+
+					<input
+						type="submit"
+						value="Advanced Search"
+						class="submit"
+						id="adv_search"
+					/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
